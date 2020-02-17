@@ -1,0 +1,15 @@
+= MQTT Wildcard Publishes
+
+WARNING: MQTT is not designed for Wildcard Publishes! This Extension is built only for fun purposes and should not be
+used for anything else.
+
+This HiveMQ Extension enables Wildcard Publishes.
+
+== How to use
+
+As a correctly implemented MQTT Brokers should does HiveMQ not allow the use Topic filters for Publish packets. This
+means that we need to switch to "PLUS" instead of "+" and "HASH" instead of "#".
+
+=== Examples
+
+"topic/+/#" will be "topic/PLUS/HASH".
