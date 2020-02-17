@@ -7,8 +7,8 @@ This HiveMQ Extension enables Wildcard Publishes.
 
 == How to use
 
-As a correctly implemented MQTT Brokers should does HiveMQ not allow the use Topic filters for Publish packets. This
-means that we need to switch to "PLUS" instead of "+" and "HASH" instead of "#".
+As any correctly implemented MQTT Brokers should do, does HiveMQ not allow the use of Topic filters in Publish packets. This
+requires the use of "PLUS" instead of "+" and "HASH" instead of "#" in the Publish Topic (filter).
 
 === Examples
 
