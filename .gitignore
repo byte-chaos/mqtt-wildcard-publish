@@ -1,5 +1,14 @@
-.idea/
+# Gradle
+.gradle/
 build/
-target/
-mqtt-fun-wildcard-publish.iml
-dependency-reduced-pom.xml
+
+# IntelliJ
+.idea/
+out/
+shelf/
+*.iml
+*.patch
+
+# Mac
+.java-version
+.DS_Store
